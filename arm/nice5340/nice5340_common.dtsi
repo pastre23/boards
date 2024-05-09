@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-#include "thingy53_nrf5340_common-pinctrl.dtsi"
+#include "nice5340_common-pinctrl.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 / {
@@ -344,4 +344,4 @@ zephyr_udc0: &usbd {
 };
 
 /* Include partition configuration file */
-#include "thingy53_nrf5340_partition_conf.dtsi"
+#include "nice5340_partition_conf.dtsi"
