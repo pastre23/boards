@@ -9,8 +9,8 @@
 #include "nice5340_common.dtsi"
 
 / {
-	model = "Nordic Thingy53 NRF5340 Application";
-	compatible = "nordic,thingy53-nrf5340-cpuapp";
+	model = "NiCE5340";
+	compatible = "nice5340";
 
 	chosen {
 		zephyr,sram = &sram0_image;
